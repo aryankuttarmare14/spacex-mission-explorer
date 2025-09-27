@@ -69,7 +69,7 @@ Users can browse through SpaceX launches, search for specific missions, filter b
 
 1. **Clone the repository**
    ```bash
-   git clone <repository-url>
+   git clone <https://github.com/aryankuttarmare14/spacex-mission-explorer>
    cd spacex-mission-explorer
    ```
 
@@ -183,127 +183,16 @@ This application integrates with SpaceX's public API v4:
 
 ## 🚀 Deployment
 
-### Vercel (Recommended)
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/your-username/spacex-mission-explorer)
+### Vercel
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/aryankuttarmare14/spacex-mission-explorer)
 
-1. Connect your GitHub repository to Vercel
-2. Vercel automatically detects Vite configuration
-3. Deploy with zero configuration
 
-### Netlify
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/your-username/spacex-mission-explorer)
-
-**Build Settings:**
-- Build command: `npm run build`
-- Publish directory: `dist`
-- Environment variables: None required
-
-### GitHub Pages
-```bash
-# Install gh-pages
-npm install --save-dev gh-pages
-
-# Add to package.json scripts
-"deploy": "gh-pages -d dist"
-
-# Deploy
-npm run build && npm run deploy
 ```
 
-## 📸 Screenshots & Demo
-
-### Application Preview
-*Screenshots will be added here showing:*
-- Main dashboard with launch cards
-- Search and filtering functionality  
-- Detailed launch modal view
-- Mobile responsive design
-- Loading and error states
 
 ### Live Demo
 🔗 **[View Live Demo](https://your-demo-url.vercel.app)** *(Update with your deployment URL)*
 
-## 🎨 Design System
-
-### Colors
-- **Primary**: SpaceX Blue (`#005288`)
-- **Accent**: SpaceX Red (`#d50000`)
-- **Success**: Green (`#10b981`)
-- **Warning**: Yellow (`#f59e0b`)
-- **Error**: Red (`#ef4444`)
-
-### Typography
-- **Font**: Inter (Google Fonts)
-- **Weights**: 300, 400, 500, 600, 700
-
-### Components
-- **Buttons**: Primary, secondary, and danger variants
-- **Cards**: Hover effects and shadow transitions
-- **Badges**: Status indicators with semantic colors
-- **Inputs**: Focus states and accessibility features
-
-## 🧩 Key Features Implementation
-
-### Search & Filtering
-- **Debounced Search**: 300ms delay to prevent excessive API calls
-- **Client-side Filtering**: Fast filtering without server requests
-- **Multiple Filters**: Year, success status, and favorites can be combined
-
-### Favorites System
-- **Context API**: Global state management for favorites
-- **localStorage**: Persistent storage across browser sessions
-- **Real-time Updates**: Immediate UI updates when favorites change
-
-### Accessibility
-- **Keyboard Navigation**: Full keyboard support for all interactions
-- **ARIA Labels**: Screen reader friendly labels and descriptions
-- **Focus Management**: Proper focus handling in modals
-- **Semantic HTML**: Proper HTML structure for assistive technologies
-
-### Performance
-- **Memoization**: useMemo and useCallback for expensive operations
-- **Lazy Loading**: Skeleton loaders for better perceived performance
-- **Optimized Images**: Responsive images with error handling
-
-## ⚠️ Known Limitations
-
-### Current Constraints
-1. **API Dependencies**: Application requires internet connection for SpaceX API access
-2. **Rate Limiting**: SpaceX API may have undocumented rate limits affecting performance
-3. **Browser Compatibility**: Requires modern browsers with ES6+ support (IE not supported)
-4. **Image Loading**: Some mission patches may fail to load due to external hosting
-5. **Data Freshness**: Launch data depends on SpaceX API updates and accuracy
-
-### Technical Limitations
-- No offline functionality or caching mechanisms
-- Limited to SpaceX data only (no other space agencies)
-- No real-time updates (requires manual refresh)
-- No user authentication or personalized features
-
-## 🎯 Learning Outcomes & Project Purpose
-
-### Technical Skills Demonstrated
-- **Modern React Development**: Functional components, hooks, and context API
-- **State Management**: Global state with React Context and local component state
-- **API Integration**: Fetch API, error handling, and data transformation
-- **Responsive Design**: Mobile-first approach with TailwindCSS
-- **Testing**: Unit testing with React Testing Library and Vitest
-- **Accessibility**: ARIA attributes, keyboard navigation, and semantic HTML
-- **Performance**: Memoization, debouncing, and optimized rendering
-
-### Professional Development
-- **Code Organization**: Modular component architecture and separation of concerns
-- **Documentation**: Comprehensive README and inline code documentation
-- **Error Handling**: Graceful error states and user feedback
-- **User Experience**: Loading states, smooth interactions, and intuitive design
-- **Deployment**: Modern deployment strategies with Vercel/Netlify
-
-### Project Goals Achieved
-✅ **Functional Requirements**: All specified features implemented and working
-✅ **Technical Requirements**: Modern React stack with testing and accessibility
-✅ **Code Quality**: Clean, documented, and maintainable codebase
-✅ **User Experience**: Intuitive interface with responsive design
-✅ **Performance**: Optimized for fast loading and smooth interactions
 
 ## 🏆 Conclusion
 
